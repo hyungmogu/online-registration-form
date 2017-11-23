@@ -51,6 +51,11 @@ fieldset:last-of-type {
   border-bottom: none;
 }
 
+:placeholder-shown {
+  text-align: right;
+}
+
+
 .form-group {
   display: flex;
   flex-wrap: wrap;
