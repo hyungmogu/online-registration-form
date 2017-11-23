@@ -1,9 +1,10 @@
 :root {
   background-color: red;
+  font-family: 'Merriweather', serif;
 }
 
 body {
-  max-width: 760px;
+  max-width: 768px;
   background-color: white;
   height: 600px;
   margin: 0 auto;
