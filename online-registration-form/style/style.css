@@ -1,6 +1,7 @@
 :root {
   background-color: red;
   font-family: 'Merriweather', serif;
+  color: #2D3945;
 }
 
 body {
@@ -10,12 +11,17 @@ body {
 
 header {
   background-color: #2D3945;
+  color: #8C8E90;
 }
 
 main {
   max-width: 768px;
   margin: auto;
   background-color: white;
+}
+
+footer {
+  color: #B7BCBf;
 }
 
 @media screen and (min-width: 768px) {
