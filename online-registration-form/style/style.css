@@ -1,0 +1,92 @@
+:root {
+  /*background-color: red;*/
+  font-family: 'Merriweather', serif;
+  color: #2D3945;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #2D3945;
+  color: #8C8E90;
+
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: white;
+
+  flex: 1;
+
+  padding: 0 0.8em;
+}
+
+footer {
+  color: #B7BCBf;
+
+  min-height: 180px;
+  padding: 1.3em 0;
+
+  display: flex;
+  justify-content: center;
+
+
+}
+
+fieldset {
+  border-bottom: solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.20em;
+}
+
+.logo a {
+  padding: 1em;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.newsletter-headline {
+  border-bottom: solid 2px;
+}
+
+.newsletter-headline > div {
+  padding: 1em;
+}
+
+.newsletter-headline > hr {
+  margin: 2px 0;
+  height: 5px;
+  background-color: black;
+}
+
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 80%;
+    max-width: 768px;
+    margin: auto;
+  }
+
+  footer {
+    min-height: 210px;
+  }
+}
