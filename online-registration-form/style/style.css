@@ -58,6 +58,10 @@ fieldset:last-of-type {
   margin-bottom: 0.9em;
 }
 
+.form-group label {
+  margin-bottom: 0.4em;
+}
+
 .form-group label,
 .form-group input,
 #form-state {
@@ -118,6 +122,8 @@ fieldset:last-of-type {
 
   .form-group label {
     width: 20%;
+
+    margin: 0em;
   }
 
   .form-group input {
