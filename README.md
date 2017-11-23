@@ -1,6 +1,6 @@
 # Team Treehouse FETD 3rd Project: Online Registration Form
 
-Here, the author is tasked with creating mobile friendly, and responsive form from mockup without using Twitter Bootstrap. To fulfill the needs, the author utilized HTML5 elements and CSS properties, including flex properties, media queries, pseudo classes, and attribute selectors.
+Here, the author is tasked with creating mobile friendly, and responsive form from mockup without using Twitter Bootstrap. To fulfill the needs, HTML5 elements and CSS properties, including flex properties, media queries, pseudo classes, and attribute selectors are utilized.
 
 The rubric for this project can be found here: https://drive.google.com/open?id=1vGQKJ59liO2xyhUg-ze8eD5YfbXG2CFn
 
