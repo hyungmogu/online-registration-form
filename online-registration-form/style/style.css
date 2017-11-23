@@ -79,6 +79,10 @@ fieldset:last-of-type {
   background-color: black;
 }
 
+.newsletter-headline .title {
+  font-size: 1.25em;
+}
+
 
 @media screen and (min-width: 768px) {
   main {
@@ -89,5 +93,13 @@ fieldset:last-of-type {
 
   footer {
     min-height: 210px;
+  }
+
+  .newsletter-headline > div {
+    padding: 2em 1em;
+  }
+
+  .newsletter-headline .title {
+    font-size: 1.5em;
   }
 }
