@@ -57,7 +57,8 @@ fieldset:last-of-type {
 }
 
 .form-group label,
-.form-group input {
+.form-group input,
+#form-state {
   width: 100%;
 }
 
@@ -115,6 +116,10 @@ fieldset:last-of-type {
 
   .form-group input {
     width: 80%;
+  }
+
+  #form-state {
+    width: 82%;
   }
 
   .newsletter-headline > div {
