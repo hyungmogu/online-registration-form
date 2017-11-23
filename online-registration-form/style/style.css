@@ -37,6 +37,17 @@ footer {
 
 }
 
+fieldset {
+  border-bottom: solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
 .logo {
   margin: 0;
   font-size: 1.20em;
