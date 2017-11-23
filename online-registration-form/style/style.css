@@ -54,6 +54,8 @@ fieldset:last-of-type {
 .form-group {
   display: flex;
   flex-wrap: wrap;
+
+  margin-bottom: 0.9em;
 }
 
 .form-group label,
