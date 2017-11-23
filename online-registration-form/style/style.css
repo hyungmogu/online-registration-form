@@ -51,6 +51,32 @@ fieldset:last-of-type {
   border-bottom: none;
 }
 
+:placeholder-shown {
+  text-align: right;
+}
+
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 0.9em;
+}
+
+.form-group label {
+  margin-bottom: 0.4em;
+}
+
+.form-group label,
+.form-group input,
+#form-state {
+  width: 100%;
+}
+
+#form-zip-code {
+  width: 100px;
+}
+
 .logo {
   margin: 0;
   font-size: 1.20em;
@@ -66,6 +92,7 @@ fieldset:last-of-type {
 
 .newsletter-headline {
   border-bottom: solid 2px;
+  text-align: center;
 }
 
 .newsletter-headline > div {
@@ -78,6 +105,10 @@ fieldset:last-of-type {
   background-color: black;
 }
 
+.newsletter-headline .title {
+  font-size: 1.25em;
+}
+
 
 @media screen and (min-width: 768px) {
   main {
@@ -88,5 +119,31 @@ fieldset:last-of-type {
 
   footer {
     min-height: 210px;
+  }
+
+  .form-group {
+    flex-wrap: nowrap;
+  }
+
+  .form-group label {
+    width: 23%;
+
+    margin: 0em;
+  }
+
+  .form-group input {
+    width: 75%;
+  }
+
+  #form-state {
+    width: 77%;
+  }
+
+  .newsletter-headline > div {
+    padding: 2em 1em;
+  }
+
+  .newsletter-headline .title {
+    font-size: 1.5em;
   }
 }
