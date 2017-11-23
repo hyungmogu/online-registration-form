@@ -28,8 +28,12 @@ main {
 footer {
   color: #B7BCBf;
 
+  min-height: 180px;
+
   display: flex;
   justify-content: center;
+
+
 }
 
 .logo {
@@ -51,5 +55,9 @@ footer {
     width: 80%;
     max-width: 768px;
     margin: auto;
+  }
+
+  footer {
+    min-height: 210px;
   }
 }
