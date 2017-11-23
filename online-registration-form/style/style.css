@@ -121,17 +121,17 @@ fieldset:last-of-type {
   }
 
   .form-group label {
-    width: 20%;
+    width: 23%;
 
     margin: 0em;
   }
 
   .form-group input {
-    width: 78%;
+    width: 75%;
   }
 
   #form-state {
-    width: 80%;
+    width: 77%;
   }
 
   .newsletter-headline > div {
