@@ -62,6 +62,10 @@ fieldset:last-of-type {
   width: 100%;
 }
 
+#form-zip-code {
+  width: 100px;
+}
+
 .logo {
   margin: 0;
   font-size: 1.20em;
@@ -115,11 +119,11 @@ fieldset:last-of-type {
   }
 
   .form-group input {
-    width: 80%;
+    width: 78%;
   }
 
   #form-state {
-    width: 82%;
+    width: 80%;
   }
 
   .newsletter-headline > div {
