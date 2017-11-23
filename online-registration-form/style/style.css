@@ -66,6 +66,7 @@ fieldset:last-of-type {
 
 .newsletter-headline {
   border-bottom: solid 2px;
+  text-align: center;
 }
 
 .newsletter-headline > div {
