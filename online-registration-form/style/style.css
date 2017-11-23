@@ -51,6 +51,23 @@ fieldset:last-of-type {
   border-bottom: none;
 }
 
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 0.9em;
+}
+
+.form-group label,
+.form-group input,
+#form-state {
+  width: 100%;
+}
+
+#form-zip-code {
+  width: 100px;
+}
+
 .logo {
   margin: 0;
   font-size: 1.20em;
@@ -93,6 +110,22 @@ fieldset:last-of-type {
 
   footer {
     min-height: 210px;
+  }
+
+  .form-group {
+    flex-wrap: nowrap;
+  }
+
+  .form-group label {
+    width: 20%;
+  }
+
+  .form-group input {
+    width: 78%;
+  }
+
+  #form-state {
+    width: 80%;
   }
 
   .newsletter-headline > div {
