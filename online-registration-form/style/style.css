@@ -1,3 +1,18 @@
 :root {
   background-color: red;
 }
+
+body {
+  max-width: 760px;
+  background-color: white;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.reset-default-prop {
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+}
