@@ -55,20 +55,21 @@ fieldset:last-of-type {
   text-align: right;
 }
 
-
 .form-group {
-  display: flex;
-  flex-wrap: wrap;
-
   margin-bottom: 0.9em;
 }
 
-.form-group label {
+#form-contact-information .form-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#form-contact-information label {
   margin-bottom: 0.4em;
 }
 
-.form-group label,
-.form-group input,
+#form-contact-information label,
+#form-contact-information input,
 #form-state {
   width: 100%;
 }
@@ -121,17 +122,17 @@ fieldset:last-of-type {
     min-height: 210px;
   }
 
-  .form-group {
+  #form-contact-information .form-group {
     flex-wrap: nowrap;
   }
 
-  .form-group label {
+  #form-contact-information label {
     width: 23%;
 
     margin: 0em;
   }
 
-  .form-group input {
+  #form-contact-information input {
     width: 75%;
   }
 
