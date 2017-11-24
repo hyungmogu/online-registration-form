@@ -60,6 +60,11 @@ fieldset:last-of-type {
   border-bottom: none;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   margin-right: 1em;
@@ -76,6 +81,10 @@ input[type="radio"] {
 
 #form-newsletter .form-group {
   margin-bottom: 2em;
+}
+
+#form-newsletter .form-group:last-child {
+  margin-bottom: 0;
 }
 
 #form-newsletter p {
