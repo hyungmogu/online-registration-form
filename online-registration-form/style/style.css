@@ -60,6 +60,10 @@ fieldset:last-of-type {
   margin-bottom: 0.9em;
 }
 
+#form-newsletter .form-group {
+  margin-bottom: 2em; 
+}
+
 #form-contact-information .form-group {
   display: flex;
   flex-wrap: wrap;
