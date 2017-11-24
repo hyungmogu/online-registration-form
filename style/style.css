@@ -68,6 +68,20 @@ input[type="radio"] {
   margin-right: 1em;
 }
 
+input[type="submit"],
+button[type="submit"] {
+  padding: 1em;
+}
+
+input,
+select,
+textarea {
+  padding: 1em;
+  background-color: #EFF0F1;
+  border-style: none;
+  border-radius: 5px;
+}
+
 legend {
   padding-top: 2em;
 }
