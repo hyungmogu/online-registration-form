@@ -69,6 +69,10 @@ input[type="radio"] {
   margin-bottom: 2em;
 }
 
+#form-newsletter p {
+  margin-top: 0;
+}
+
 #form-contact-information .form-group {
   display: flex;
   flex-wrap: wrap;
