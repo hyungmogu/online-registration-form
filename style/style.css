@@ -36,7 +36,7 @@ footer {
   color: #B7BCBf;
 
   min-height: 180px;
-  padding: 1.3em 0;
+  padding: 2em 0;
 
   display: flex;
   justify-content: center;
@@ -49,15 +49,31 @@ fieldset {
   border-top: none;
   border-left: none;
   border-right: none;
+
+  margin:0;
+  padding: 2em 0;
 }
 
 fieldset:last-of-type {
   border-bottom: none;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   margin-right: 1em;
+}
+
+legend {
+  padding-top: 2em;
+}
+
+legend h3 {
+  margin: 0;
 }
 
 :placeholder-shown {
@@ -71,6 +87,10 @@ input[type="radio"] {
 
 #form-newsletter .form-group {
   margin-bottom: 2em;
+}
+
+#form-newsletter .form-group:last-child {
+  margin-bottom: 0;
 }
 
 #form-newsletter p {
