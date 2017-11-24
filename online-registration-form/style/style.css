@@ -51,6 +51,11 @@ fieldset:last-of-type {
   border-bottom: none;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 1em;
+}
+
 :placeholder-shown {
   text-align: right;
 }
@@ -61,7 +66,7 @@ fieldset:last-of-type {
 }
 
 #form-newsletter .form-group {
-  margin-bottom: 2em; 
+  margin-bottom: 2em;
 }
 
 #form-contact-information .form-group {
