@@ -55,7 +55,8 @@ fieldset:last-of-type {
   text-align: right;
 }
 
-.form-group {
+.form-group,
+.form-checkbout-radio-group {
   margin-bottom: 0.9em;
 }
 
