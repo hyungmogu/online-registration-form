@@ -50,10 +50,8 @@ fieldset {
   border-left: none;
   border-right: none;
 
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
+  margin:0;
+  padding: 2em 0;
 }
 
 fieldset:last-of-type {
@@ -68,6 +66,14 @@ form {
 input[type="checkbox"],
 input[type="radio"] {
   margin-right: 1em;
+}
+
+legend {
+  padding-top: 2em;
+}
+
+legend h3 {
+  margin: 0;
 }
 
 :placeholder-shown {
