@@ -1,3 +1,7 @@
+* {
+  box-sizing:border-box;
+}
+
 :root {
   /*background-color: red;*/
   font-family: 'Merriweather', serif;
@@ -151,11 +155,8 @@ input[type="radio"] {
     margin: 0em;
   }
 
-  #form-contact-information input {
-    width: 75%;
-  }
-
-  #form-state {
+  #form-contact-information input,
+  #form-contact-information select {
     width: 77%;
   }
 
