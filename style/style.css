@@ -132,6 +132,8 @@ legend h3 {
 
 #form-contact-information label {
   margin-bottom: 0.4em;
+  display:flex;
+  align-items:center;
 }
 
 #form-contact-information label,
