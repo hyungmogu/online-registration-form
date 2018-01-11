@@ -95,6 +95,11 @@ textarea {
   border-radius: 5px;
 }
 
+label[for="other-topics"] {
+  margin-bottom: 1em;
+  display:block;
+}
+
 legend {
   padding-top: 2em;
 }
