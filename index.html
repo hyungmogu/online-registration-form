@@ -30,7 +30,7 @@
             </div>
             <div class="form-group">
               <label for="form-email">Email Address</label>
-              <input id="form-email" type="email" name="email"/ placeholder="Required" required>
+              <input id="form-email" type="email" name="email" placeholder="Required" required>
             </div>
             <div class="form-group">
               <label for="form-phone-numb">Phone Number</label>
@@ -62,27 +62,27 @@
             <div class="form-group">
               <p>Select the newsletter you would like to receive</p>
               <div class="form-checkbout-radio-group">
-                <input type="checkbox" name="newsletter-options" value="html-news" /><label>HTML News</label>
+                <input id="news-html" type="checkbox" name="newsletter-options" value="news-html" /><label for="news-html">HTML News</label>
               </div>
               <div class="form-checkbout-radio-group">
-                <input type="checkbox" name="newsletter-options" value="css-news" /><label>CSS News</label>
+                <input id="news-css" type="checkbox" name="newsletter-options" value="news-css" /><label for="news-css">CSS News</label>
               </div>
               <div class="form-checkbout-radio-group">
-                <input type="checkbox" name="newsletter-options" value="javascript-news" /><label>Javascript News</label>
+                <input id="news-js" type="checkbox" name="newsletter-options" value="news-js" /><label for="news-js">Javascript News</label>
               </div>
             </div>
             <div class="form-group">
               <p>Newsletter Format</p>
               <div class="form-checkbout-radio-group">
-                <input type="radio" name="newsletter-format" value="html" /><label>HTML</label>
+                <input id="news-format-html" type="radio" name="newsletter-format" value="html" /><label for="news-format-html">HTML</label>
               </div>
               <div class="form-checkbout-radio-group">
-                <input type="radio" name="newsletter-format" value="plain-text" /><label>Plain Text</label>
+                <input id="news-format-plain" type="radio" name="newsletter-format" value="plain-text" /><label for="news-format-plain">Plain Text</label>
               </div>
             </div>
             <div class="form-group">
-              <p>Other topics you would like to hear about</p>
-              <textarea name="newsletter-other-topics"></textarea>
+              <label for="other-topics">Other topics you would like to hear about</label>
+              <textarea id="other-topics" name="newsletter-other-topics"></textarea>
             </div>
           </fieldset>
           <input type="submit" value="Sign Up" />
